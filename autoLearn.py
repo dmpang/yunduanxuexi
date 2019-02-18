@@ -175,7 +175,7 @@ while learn_num < toltal_count:
 
     try:
         print(f"{time.strftime('%Y-%m-%d %T')} 直接进入学习地图")
-        driver.get('http://e-learning.jsnx.net/els/html/index.parser.do?id=0007')
+        driver.get(r'http://sxnxs.21tb.com/els/html/index.parser.do?id=0007')
         time.sleep(2)
         print(f"{time.strftime('%Y-%m-%d %T')} 进入课程列表")
         driver.find_element_by_xpath('//*[@id="trackList"]/ul/li[1]/div[2]/div[3]/a').click()
